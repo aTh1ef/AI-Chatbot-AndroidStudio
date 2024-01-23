@@ -2,7 +2,7 @@
 
 ## Overview
 
-AI is an Android application that leverages OpenAI's API to provide intelligent and dynamic conversational experiences. This chatbot app comes equipped with a range of features, including text-to-speech, speech-to-text, clipboard integration, answer sharing, and a clear chat option.
+AI Chatbot is an Android application that leverages OpenAI's API to provide intelligent and dynamic conversational experiences. This chatbot app comes equipped with a range of features, including text-to-speech, speech-to-text, clipboard integration, answer sharing, and a clear chat option.
 
 ## Key Features
 
