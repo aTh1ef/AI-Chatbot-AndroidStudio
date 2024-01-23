@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aichatbot.MainActivity"
+    android:background="@drawable/bg">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Welcome!\nHow can I help you?"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/message_edit_text"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="148dp"
+            android:layout_toLeftOf="@id/send_btn"
+            android:background="@drawable/rounded_corner"
+            android:hint="Write here"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:padding="16dp" />
+
+        <ImageButton
+            android:id="@+id/send_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Send Message"
+            android:padding="8dp"
+            android:src="@drawable/baseline_send_24" />
+
+
+        <RelativeLayout
+            android:layout_width="154dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="0dp">
+
+            <ImageButton
+                android:id="@+id/speech_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="95dp"
+                android:backgroundTint="@color/purple"
+                android:contentDescription="Speech to Text"
+                android:src="@drawable/baseline_mic_24"
+                app:tint="@color/black" />
+
+            <ImageButton
+                android:id="@+id/copy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="48dp"
+                android:backgroundTint="@color/purple"
+                android:contentDescription="Copy Message"
+                android:src="@drawable/baseline_content_copy_24"
+                app:tint="@color/black" />
+
+            <ImageButton
+                android:id="@+id/text_to_speech_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="1dp"
+                android:backgroundTint="@color/purple"
+                android:src="@drawable/baseline_record_voice_over_24" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/clearButton"
+        android:layout_width="76dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="37dp"
+        android:backgroundTint="@color/purple"
+        app:srcCompat="@drawable/baseline_clear_all_24" />
+
+    <ImageButton
+        android:id="@+id/shareButton"
+        android:layout_width="76dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/purple"
+        android:src="@drawable/baseline_share_24" />
+
+
+</RelativeLayout>
