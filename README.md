@@ -6,17 +6,17 @@ AI is an Android application that leverages OpenAI's API to provide intelligent 
 
 ## Key Features
 
-- OpenAI Integration: Utilizes OpenAI's API for accurate and engaging responses.
-- Text-to-Speech: Enables hands-free interaction with the chatbot.
-- Speech-to-Text: Allows users to communicate with the chatbot using their voice.
-- Clipboard Integration: Seamlessly copy and paste text for efficient conversations.
-- Answer Sharing: Easily share insightful responses with friends or other apps.
-- Clear Chat Option: Maintain privacy and declutter the conversation space.
+- **OpenAI Integration:** Utilizes OpenAI's API for accurate and engaging responses.
+- **Text-to-Speech:** Enables hands-free interaction with the chatbot.
+- **Speech-to-Text:** Allows users to communicate with the chatbot using their voice.
+- **Clipboard Integration:** Seamlessly copy and paste text for efficient conversations.
+- **Answer Sharing:** Easily share insightful responses with friends or other apps.
+- **Clear Chat Option:** Maintain privacy and declutter the conversation space.
 
   ## Front-End Design
 
-- Logo: The app's logo was created using Canva, a versatile graphic design tool.
-- About Page:The design of the About page was crafted using Canva to provide a visually appealing and informative experience.
+- **Logo:** The app's logo was created using Canva, a versatile graphic design tool.
+- **About Page:** The design of the About page was crafted using Canva to provide a visually appealing and informative experience.
 
 
 ## Getting Started
