@@ -1,3 +1,5 @@
+
+
 # AI Chatbot - Android Chatbot App
 
 ## Overview
@@ -40,7 +42,7 @@ AI Chatbot is an Android application that leverages OpenAI's API to provide inte
 
 ### Important Note
 
-In the `MainActivity.java` file, locate the `callAPI` method responsible for making API calls to OpenAI. Ensure that you replace the placeholder API key in the `Authorization` header with your own OpenAI API key.
+In the `MainActivity.java` file, locate the `callAPI` method responsible for making API calls to OpenAI. Ensure that you replace the hardcoded API key in the `Authorization` header with your own OpenAI API key.
 You can generate your API key by following [this tutorial](https://youtu.be/nafDyRsVnXU?si=l9-1iF96xh24JJ_U).
 
 ```java
@@ -49,10 +51,10 @@ void callAPI(String question) {
 
     Request request = new Request.Builder()
             .url("https://api.openai.com/v1/completions")
-            .header("Authorization", "Bearer YOUR_OPENAI_API_KEY_HERE")
+            .header("Authorization", "Bearer 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")
             .post(body)
             .build();
     // ... (remaining code)
 }
 
-Replace "YOUR_OPENAI_API_KEY_HERE" with your actual OpenAI API key.
+Replace "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" with your actual OpenAI API key.
